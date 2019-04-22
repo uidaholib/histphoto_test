@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>test</title>
+    <meta http-equiv="Content-Language" content="en-us" >
+    
+    <link rel="stylesheet" href="https://www.lib.uidaho.edu/assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://www.lib.uidaho.edu/assets/css/fontawesome/css/fontawesome-all.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.css"/>    
+    <link rel="stylesheet" href="https://www.lib.uidaho.edu/assets/css/main.css" type="text/css">
+ 
+</head>
+<body>
+
+    <div class="table-responsive-md">
+        <table id="item-table" class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Photo Group</th>
+                    <th scope="col">ID Number</th>
+                    <th scope="col">Image link</th>
+                    <th scope="col">Digital Collection link</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <!-- Optional JS for Bootstrap: jQuery first, then Bootstrap bundle JS -->
+    <script src="https://www.lib.uidaho.edu/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.lib.uidaho.edu/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- load other js -->
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.js"></script>
+    <script>
+        /* use jquery to initialize DataTables and load collection data */
+        (function(){
+            $('#item-table').DataTable( {
+                // use DataTables ajax load 
+                ajax: { url: 'data/hist_photo.json', dataSrc: 'data' },
+                // get the data from the metadata.json
+                columns: [ { data: 'item.3' }, { data: 'item.4' }, { data: 'item.2' }, { data: 'item.5' }, { data: 'item.0' }, { data: 'item.1' } ],
+                /*columnDefs: [ 
+                    // combine link and title for first column
+                    { "render": function ( data, type, row ) { return '<a href="' + row.link +'">'+ data +'</a>'; },"targets": 0 },
+                    // join the subjects array to print nicely
+                    { "render": function ( data, type, row ) { return data.join("; "); },"targets": 3 },
+                    // hide the link column
+                    { "visible": false,  "targets": [ 4 ] }
+                ],*/
+                // sort based on the date
+                //order: [[ 1, "desc" ]],
+                // add download features
+                //dom: 'Blfrtip', 
+                //buttons: [ 'excelHtml5', 'csvHtml5' ]
+            });
+        })();
+    </script>
+
+  </body>
+
+</html>
