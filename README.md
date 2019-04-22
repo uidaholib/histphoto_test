@@ -10,3 +10,10 @@ https://www.lib.uidaho.edu/special-collections/histphoto/
 - use ajax, https://datatables.net/reference/option/ajax
 - deferRender, https://datatables.net/reference/option/deferRender
 - orderClasses, https://datatables.net/reference/option/orderClasses
+
+## notes 
+
+image link types:
+
+- http://digital.lib.uidaho.edu/cdm/search/collection/pg1/searchterm/Third Annual Swine Type Conference. University of Idaho.
+- http://www.lib.uidaho.edu/special-collections/histphoto/Pg6010/6010-95-10.jpg
