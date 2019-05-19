@@ -1,73 +1,73 @@
-{
-  "data" : [
-{
-  "item" : ["cdm","campus","1","Third Annual Swine Type Conference. University of Idaho.","10/19/1944","204d-18"]
-},
-{
-  "item" : ["cdm","campus","1","Third Annual Swine Type Conference. University of Idaho.","10/19/1944","204d-19"]
-},
-{
-  "item" : ["cdm","campus","1","Judging at Third Annual Swine Type Conference. University of Idaho.","10/19/1944","204d-20"]
-},
-{
-  "item" : ["cdm","campus","1","Judging at Third Annual Swine Type Conference. University of Idaho.","1944","204d-21"]
-},
-{
-  "item" : ["cdm","campus","1","Judging at Third Annual Swine Type Conference. University of Idaho.","1944","204d-22"]
-},
-{
-  "item" : ["cdm","campus","1","Fourth Swine Conference. University of Idaho.","10/19/1945","204d-23"]
-},
-{
-  "item" : ["cdm","campus","1","Fourth Swine Conference. University of Idaho.","10/19/1945","204d-24"]
-},
-{
-  "item" : ["cdm","campus","1","Fourth Swine Conference. University of Idaho.","10/19/1945","204d-25"]
-},
-{
-  "item" : ["cdm","campus","1","Judging at the Fourth Swine Conference. University of Idaho.","10/19/1945","204d-26"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","6/14/1945","204d-27"]
-},
-{
-  "item" : ["cdm","campus","1","Swine at the university farm. University of Idaho.","n.d.","204d-02"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-03"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-04"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-05"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-06"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. Little International grand champions. University of Idaho.","1940","204d-09"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. Little International champions. University of Idaho.","n.d.","204d-11"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","n.d.","206-22"]
-},
-{
-  "item" : ["cdm","campus","1","Swine. University of Idaho.","n.d.","206-24"]
-},
-{
-  "item" : ["cdm","campus","1","Swine eating. University of Idaho.","n.d.","206-25"]
-},
-{
-  "item" : [null,null,"11","Alan Peycock, Robert Swineham, Mary Banks, Ellen Case, Larry Zysk, Nancy Germer, Robert Bower, Stephen Hackney, Erick Korte, Joe Bales, Dale Potter, and Gregory Hill outside UCC. University of Idaho.","[195-]-[196-]","C49"]
-},
-{
-  "item" : [null,null,"92","International agricultural exhibit and competition; poultry, swine and horse judging and showing","1946","1793"]
-},
-{
-  "item" : [null,null,"92","North Idaho Pure Bred Swine Association Award Gilt presented to Jed Thompson","2/20/1948","1972"]
-}
+
+ { "data" : [
+
+  ["cdm","campus","1","Third Annual Swine Type Conference. University of Idaho.","10/19/1944","204d-18"]
+,
+
+  ["cdm","campus","1","Third Annual Swine Type Conference. University of Idaho.","10/19/1944","204d-19"]
+,
+
+  ["cdm","campus","1","Judging at Third Annual Swine Type Conference. University of Idaho.","10/19/1944","204d-20"]
+,
+
+  ["cdm","campus","1","Judging at Third Annual Swine Type Conference. University of Idaho.","1944","204d-21"]
+,
+
+  ["cdm","campus","1","Judging at Third Annual Swine Type Conference. University of Idaho.","1944","204d-22"]
+,
+
+  ["cdm","campus","1","Fourth Swine Conference. University of Idaho.","10/19/1945","204d-23"]
+,
+
+  ["cdm","campus","1","Fourth Swine Conference. University of Idaho.","10/19/1945","204d-24"]
+,
+
+  ["cdm","campus","1","Fourth Swine Conference. University of Idaho.","10/19/1945","204d-25"]
+,
+
+  ["cdm","campus","1","Judging at the Fourth Swine Conference. University of Idaho.","10/19/1945","204d-26"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","6/14/1945","204d-27"]
+,
+
+  ["cdm","campus","1","Swine at the university farm. University of Idaho.","n.d.","204d-02"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-03"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-04"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-05"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","n.d.","204d-06"]
+,
+
+  ["cdm","campus","1","Swine. Little International grand champions. University of Idaho.","1940","204d-09"]
+,
+
+  ["cdm","campus","1","Swine. Little International champions. University of Idaho.","n.d.","204d-11"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","n.d.","206-22"]
+,
+
+  ["cdm","campus","1","Swine. University of Idaho.","n.d.","206-24"]
+,
+
+  ["cdm","campus","1","Swine eating. University of Idaho.","n.d.","206-25"]
+,
+
+  [null,null,"11","Alan Peycock, Robert Swineham, Mary Banks, Ellen Case, Larry Zysk, Nancy Germer, Robert Bower, Stephen Hackney, Erick Korte, Joe Bales, Dale Potter, and Gregory Hill outside UCC. University of Idaho.","[195-]-[196-]","C49"]
+,
+
+  [null,null,"92","International agricultural exhibit and competition; poultry, swine and horse judging and showing","1946","1793"]
+,
+
+  [null,null,"92","North Idaho Pure Bred Swine Association Award Gilt presented to Jed Thompson","2/20/1948","1972"]
+
   ]
-}
+ }
