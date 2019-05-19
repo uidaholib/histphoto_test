@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,6 +15,16 @@
  
 </head>
 <body>
+    <div class="form-group col-md-4">
+        <label for="collectionSelect">Collection</label>
+        <select id="collectionSelect" class="form-control">
+            <option value="all" selected>All</option>
+            {%- assign options = site.data.histphoto_dropdown -%}
+            {% for i in options %}
+            <option value="{{ i.value }}">{{ i.text }}</option>
+            {% endfor %}
+        </select>
+    </div>
 
     <div class="table-responsive-md">
         <table id="item-table" class="table table-striped">
@@ -34,9 +46,20 @@
     <!-- load other js -->
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.js"></script>
     <script>
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var iColumn = 3;
+            var collectionFilter = document.getElementById("collectionSelect").value;
+            // show everything
+            if (collectionFilter == "all") { return true; }
+            else { return aData[2] == collectionFilter; }
+        }
+    );
+    </script>
+    <script>
         /* use jquery to initialize DataTables and load collection data */
         (function(){
-            $('#item-table').DataTable( {
+            var table = $('#item-table').DataTable( {
                 // use DataTables ajax load 
                 ajax: { url: 'data/histphoto_min.json', dataSrc: 'objects' },
                 // defer render to speed up large sets
@@ -61,6 +84,10 @@
                 //dom: 'Blfrtip', 
                 //buttons: [ 'excelHtml5', 'csvHtml5' ]
             });
+            /* Add event listeners to collectionSelect */
+            $('#collectionSelect').change( function() {
+                table.draw();
+            } );
         })();
     </script>
 
