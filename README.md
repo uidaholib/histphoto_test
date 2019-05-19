@@ -17,7 +17,7 @@ image link types:
 
 - http://digital.lib.uidaho.edu/cdm/search/collection/pg1/searchterm/Third Annual Swine Type Conference. University of Idaho.
 - https://digital.lib.uidaho.edu/digital/collection/pg1/search/searchterm/dogs
-- "https://digital.lib.uidaho.edu/cdm/search/collection/{{ site.data.theme.cdm-collection-id }}/searchterm/" + encodeURI(query) + "/field/all/mode/all/conn/and/order/title/ad/asc", "_blank"
+- "https://digital.lib.uidaho.edu/cdm/search/collection/{{ site.data.theme.cdm-collection-id }}/searchterm/" + encodeURIComponent(query) + "/field/all/mode/all/conn/and/order/title/ad/asc", "_blank"
 - https://www.lib.uidaho.edu/special-collections/histphoto/Pg6010/6010-95-10.jpg
 
 - collection names don't match cdm stubs
