@@ -48,7 +48,6 @@
     <script>
     $.fn.dataTableExt.afnFiltering.push(
         function( oSettings, aData, iDataIndex ) {
-            var iColumn = 3;
             var collectionFilter = document.getElementById("collectionSelect").value;
             // show everything
             if (collectionFilter == "all") { return true; }
