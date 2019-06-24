@@ -20,11 +20,11 @@
         <select id="collectionSelect" class="form-control">
             <option value="all" selected>All</option>
             {%- assign options = site.data.histphoto_dropdown -%}
-            {% for i in options %}
-            <option value="{{ i.value }}">{{ i.text }}</option>
+            {% for i in options %}<option value="{{ i.value }}">{{ i.text }}</option>
             {% endfor %}
         </select>
     </div>
+    <a href="data/histphoto_full.csv" class="btn btn-success">Download CSV</a>
 
     <div class="table-responsive-md">
         <table id="item-table" class="table table-striped">
